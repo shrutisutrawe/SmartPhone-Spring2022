@@ -20,7 +20,7 @@ class ViewController: UIViewController, sendNameAndAboutMeDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         button.backgroundColor = UIColor(red: 0.298, green: 0.4392, blue: 1, alpha: 1.0);
-        button.layer.borderWidth = 0.5;
+        button.layer.borderWidth = 1;
         button.layer.borderColor = UIColor.blue.cgColor;
         // Do any additional setup after loading the view.
     }

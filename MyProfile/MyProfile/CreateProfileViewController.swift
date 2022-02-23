@@ -28,7 +28,7 @@ class CreateProfileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         button.backgroundColor = UIColor(red: 0.298, green: 0.4392, blue: 1, alpha: 1.0);
-        button.layer.borderWidth = 0.5;
+        button.layer.borderWidth = 1;
         button.layer.borderColor = UIColor.blue.cgColor;
         
         guard let fullName = fullName else{
@@ -60,7 +60,6 @@ class CreateProfileViewController: UIViewController {
         sendNameAndAboutMeDelegate?.setWelcomeText(welcomeText: "\(name) Your Profile")
         
         self.navigationController?.popViewController(animated: true)
-        
     }
     
     
